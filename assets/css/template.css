@@ -1,0 +1,512 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    justify-content:center;
+    height:120px;
+}
+
+.container{
+    display:flex;
+    width:1300px;
+    height: 120px;
+    justify-content: space-between;
+
+}
+
+
+.logo{
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+}
+
+.logo img{
+    width:150px;
+}
+
+.menu {
+    display:flex;
+    align-items: center;
+}
+
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom:40px;
+    margin-right:20px;
+    display: none;
+    cursor: pointer;
+
+}
+.menu_line{
+    height:3px;
+    background-color: #8b8989;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin:5px;
+    padding: 0;
+}
+
+nav ul{
+    display:flex;
+    font-size:14px;
+   
+}
+
+nav a{
+    display:block;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #178beb;
+    font-weight: bold;
+}
+
+nav .active a,
+nav  a:hover{
+    background-color:#178beb;
+    color: white;
+    border-radius: 10px;
+}
+
+#banner {
+    display:flex;
+    justify-content: center;
+    background-image: url(../img/modelo.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    max-height: 1000px;
+}
+
+.column{
+    flex-direction:column ;
+}
+
+.banner_headline{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.banner_headline h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 3px 5px 0 black;
+    margin: 0;
+    padding: 0;
+    max-width:350px;
+    margin-top: 100px;
+
+}
+.banner_headline h2{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 0 black;
+    margin:20px;
+    padding: 0;
+    max-width:350px;
+
+}
+
+.banner_options{
+    height:210px;
+    display:flex;
+    margin-top: 290px;
+    
+}
+
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    height: inherit;
+    color: white;
+    padding: 20px;
+
+}
+
+.banner1{
+    background-color:#316d9e42;
+}
+.banner2{
+    background-color:#1546cc54;
+
+}
+.banner3{
+    background-color:#082f9c96;
+
+}
+
+.banner_title{
+    font-size: 25px;
+}
+
+.banner_desc{
+    font-size:14px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner_desc span{
+    display: flex;
+    font-weight: bold;
+    font-size:15px;
+}
+
+.banner_options a{
+    display:inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+
+#geral section{
+    flex: 2;
+}
+
+#geral aside{
+    flex: 1;
+}
+
+
+.widget_title{
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text{
+    color: black;
+    font-weight: bold;
+    font-size:21px;
+}
+
+.widget_title_bar{
+    width:70px;
+    height:3px;
+    background-color: #178beb;
+    margin-top:10px;
+}
+
+.widget_body{
+    display: flex;
+    margin-top:30px;
+    flex-wrap: wrap;
+}
+
+.widget_body div{
+    width:190px;
+    height:150px;
+    display:flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.widget_body_desc{
+    color: rgb(136, 138, 146);
+    max-width:350px;
+    text-align: justify;
+    font-weight: bold;
+    padding:10px;
+    line-height: 20px;
+
+}
+
+.imagem{
+    width: inherit;
+    height: inherit;
+    background-image: url(../img/dor_dente.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.imagem2{
+    width: inherit;
+    height: inherit;
+    background-image: url(../img/dente_provisori.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imagem3{
+    width: inherit;
+    height: inherit;
+    background-image: url(../img/canal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imagem4{
+    width: inherit;
+    height: inherit;
+    background-image: url(../img/dentre_quebrado.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imagem5{
+    width: inherit;
+    height: inherit;
+    background-image: url(../img/fratura.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imagem6{
+    width: inherit;
+    height: inherit;
+    background-image: url(../img/inchaco.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.texto{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.486);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size:14px;
+    margin: 0px !important;
+
+
+   
+    
+}
+
+
+
+p{
+    font-size:16px;
+    font-family: "Helvetica Neue";
+}
+
+
+
+
+
+/*AREA DE NOTICIAS*/
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    flex: 1;
+    min-width:300px;
+
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news_data{
+    display: flex;
+    margin-top:-10px;
+}
+
+
+article .news_posted_at{
+    background-color: #2b4c99;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    height: 20px;
+    border-radius:5px;
+    margin-right: -5px;
+}
+
+article .news_comments{
+    background-color: #39aae1;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    height: 20px;
+    border-radius:5px;
+
+
+}
+
+article .news_thumbnail{
+    margin-top:0px;
+
+}
+article .news_thumbnail img{
+    width: 300px;
+    height: auto;
+}
+
+article .news_title{
+    margin-top:25px;
+    margin-bottom:25px;
+    color: #000000;
+    font-size: 23px;
+}
+
+article .news_resume{
+    font-size:14px;
+    color:#5c5c5c;
+    line-height: 20px;
+    width:280px;
+    text-align:justify;
+    margin-top: -50px;
+
+}
+
+
+
+
+
+
+
+/*RODAPE*/
+
+
+
+footer{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 1300px;
+    background-color: #000000c2;
+    height:500px;
+  
+
+   
+}
+
+.footer_menu{
+    display:flex;
+
+
+    
+
+}
+.fm1, .fm2, .fm3{
+    flex: 1;
+    padding:20px;
+
+
+}
+.fm1{
+    background-color:#316d9e42;
+    color: #ffffff;
+}
+.fm2{
+    background-color:#1546cc54;
+    color: #ffffff;
+
+}
+.fm3{
+    background-color:#082f9c96;
+    color: #ffffff;
+
+}
+
+.footer_area{
+    display: flex;
+    padding: 50px;
+
+}
+
+.footer_areaitem{
+    flex: 1;
+    color: #ffffff;
+
+}
+.flexColumn{
+    flex-direction: column;
+}
+
+footer .widget_title_text{
+    color: #ffffff;
+}
+
+.footer_copy{
+    border-top: 2px solid #2c2c2c;
+    height:40px;
+    line-height:40px;
+    color: #8b8989;
+    text-align: center;
+    font-size: 13px;
+    margin:150px;
+  
+}
+
+.footer_menu .titulo{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size:25px;
+}
+.footer_menu .subtitulo{
+    color:rgb(179, 169, 169);
+    font-size:15px;
+    margin-top:20px;
+
+}
+
+.footer_area .desc{
+    color: rgb(172, 165, 165);
+    width: 80%;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: -50px;
+}
+
+
+footer .container-information{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+
+
+}
+
+.widget_body .titulo{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size:20px;
+    color: #178beb;
+
+}
+
+footer .container-information div{
+    display: flex;
+    flex-direction:column;
+    font-size:12px;
+    padding-right: 30px;
+
+}
+
+.caixa{
+    display:flex;
+    margin-left: -60px;
+}
+
+
